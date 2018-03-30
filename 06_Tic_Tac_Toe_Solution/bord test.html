@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TTT Board</title>
+	<style type="text/css">
+
+	h1 {
+		text-align: center;
+	}
+
+	table {
+		margin: auto;
+		
+	}
+
+	td {
+		height: 100px;
+		width: 100px;
+	}
+
+	td:hover {
+		border: 5px solid black;
+			}
+
+	.vertical {
+		border-left: 3px solid green;
+		border-right: 3px solid green;
+	}
+
+	.horizontal {
+		border-top:3px solid orange;
+		border-bottom: 3px solid orange;
+	}
+	.end{
+		border-right: 3px solid blue;
+		 	}
+	.start{
+          border-left: 3px solid purple;
+
+	}
+	.top{
+		border-top: 3px solid brown;
+	}
+	.bottom{
+		border-bottom: 3px solid lightgreen;
+	}
+
+	</style>
+</head>
+<body>
+
+<h1>Tic Tac Toe</h1>
+
+<table>
+	<tr>
+		<td class="start top"></td>
+		<td class="vertical top"></td>
+		<td class="end top "></td>
+	</tr>
+
+	<tr>
+		<td class="horizontal start"></td>
+		<td class="vertical horizontal"></td>
+		<td class="horizontal end"></td>
+	</tr>
+
+	<tr>
+		<td class="start bottom"></td>
+		<td class="vertical bottom"></td>
+		<td class="end bottom"></td>
+	</tr>
+</table>
+
+</body>
+</html>
